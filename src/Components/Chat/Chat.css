@@ -1,1 +1,19 @@
-.chat{    flex: 0.75;    display: flex;    flex-direction: column;    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");    background-repeat: repeat;    background-position: center;    background-size: 75%;}.chat-body{    background: transparent;    flex: 1;    overflow-y: scroll;    padding: 30px;    display: flex;    flex-direction: column;}
+.chat{
+    flex: 0.75;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.chat-body{
+    background: transparent;
+    flex: 1;
+    overflow-y: scroll;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: overlay;
+}
