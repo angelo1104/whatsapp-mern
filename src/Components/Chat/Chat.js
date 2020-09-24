@@ -1,0 +1,1 @@
+import React from "react";import "./Chat.css"import ChatAppBar from "./ChatAppBar/ChatAppBar";function Chat(props) {    return(        <div className="chat">            <ChatAppBar/>            <div className="chat-body">            </div>        </div>    )}export default Chat

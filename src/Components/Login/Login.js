@@ -1,0 +1,1 @@
+import React from "react";import "./Login.css"function Login(props) {    return(        <div className="login">            <img className="login-logo" src="/Whatsapp LOGO.png" alt=""/>            <button className="google-signin-button">Sign in with Google</button>        </div>    )}export default Login
