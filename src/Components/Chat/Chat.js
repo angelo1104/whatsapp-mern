@@ -10,7 +10,6 @@ function Chat(props) {
             <ChatAppBar/>
             <div className="chat-body">
                 <ChatBubble isReceiver={true}/>
-                <ChatBubble isReceiver={false}/>
             </div>
 
             <ChatFooter/>
